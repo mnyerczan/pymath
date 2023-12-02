@@ -82,7 +82,7 @@ def divisors(n: int) -> _Divisors:
     return out
 
 
-def prime_factors(n: int):
+def prime_factors(n: int) -> list[int]:
     i = 2
     factors: list[int] = []
     while i*i <= abs(n):
